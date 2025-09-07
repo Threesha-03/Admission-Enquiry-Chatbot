@@ -3,7 +3,7 @@
 ## 🚀 Initial Setup
 
 ### Versions
-- Python (any recent version)  
+- Python (any recent version)
 - Miniconda (recommended) → `Miniconda3-py39_24.5.0-0-Windows-x86_64`
 
 This repo contains the starter files for a College Admission Enquiry Chatbot.
@@ -71,6 +71,7 @@ Edit **`intents.json`** to add or update questions & responses for your chatbot.
 ---
 
 ## 📸 Output
+![Image Description](https://github.com/user-attachments/assets/aa83bfa7-5bcb-4b99-aa58-5931f8ab582f)
 
 
 ```
