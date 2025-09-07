@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good afternoon", "hii"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?", "Hey! What can I do for you?"]
+    },
+    {
+      "tag": "about_college",
+      "patterns": ["about your self", "who are you", "hi who are you", "hello who are you"],
+      "responses": ["Hello! I am your virtual assistant for Srinivas Institute of Technology, Valachil, Mangalore. How can I help you?"]
+    },
+    {
+      "tag": "college_location",
+      "patterns": ["where is the college located?", "location", "college location", "clg location"],
+      "responses": ["Srinivas Institute of Technology is located at Valachil, Mangalore."]
+    },
+    {
+      "tag": "college_courses",
+      "patterns": ["courses available", "what courses do you offer?", "engineering branches", "college courses", "btech courses"],
+      "responses": [
+        "We offer the following engineering courses:\n1. Computer Science and Engineering\n2. Information Science and Engineering\n3. Mechanical Engineering\n4. Civil Engineering\n5. Electronics and Communication Engineering\n6. Electrical and Electronics Engineering\n7. Artificial Intelligence and Data Science"
+      ]
+    },
+    {
+      "tag": "bus_facility",
+      "patterns": ["bus facility", "college bus", "transport facility", "how to reach college"],
+      "responses": [
+        "Yes, we provide bus facility from nearby towns:\n- Puttur: Morning 7:00 AM | Evening 5:30 PM\n- Udupi: Morning 7:15 AM | Evening 5:45 PM\n- Kasargod: Morning 6:45 AM | Evening 5:15 PM\n- Karkala: Morning 7:30 AM | Evening 6:00 PM"
+      ]
+    },
+    {
+      "tag": "fees_structure",
+      "patterns": ["fees", "fee structure", "tuition fees", "college fees"],
+      "responses": [
+        "Our approximate fee structure per year is:\n- Computer Science & Engineering: ₹1,20,000\n- Information Science & Engineering: ₹1,10,000\n- Mechanical Engineering: ₹95,000\n- Civil Engineering: ₹90,000\n- Electronics & Communication Engineering: ₹1,00,000\n- Electrical & Electronics Engineering: ₹95,000\n- Artificial Intelligence & Data Science: ₹1,25,000"
+      ]
+    },
+    {
+      "tag": "admissions_info",
+      "patterns": ["admission process", "how to apply", "application deadline", "eligibility"],
+      "responses": [
+        "Admissions are based on CET/COMEDK/Management quota. You need to have completed 12th with PCM. For detailed dates and process, please contact our admission office."
+      ]
+    },
+    {
+      "tag": "campus_life_info",
+      "patterns": ["campus life", "hostel facility", "extracurricular activities", "events"],
+      "responses": [
+        "Campus life at SIT Valachil is vibrant with technical fests, cultural activities, sports, and student clubs. We also provide separate hostel facilities for boys and girls."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": ["contact", "phone number", "email", "how to reach", "help desk"],
+      "responses": [
+        "You can reach us at:\n📍 Srinivas Institute of Technology, Valachil, Mangalore\n📞 Phone: +91-824-2278660\n📧 Email: info@sitmangalore.edu.in\n🌐 Website: www.sitmangalore.edu.in"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks", "thankyou", "appreciate it"],
+      "responses": ["You're welcome!", "No problem!", "Glad I could help!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "take care"],
+      "responses": ["Goodbye! Have a great day!", "See you later! Take care.", "Bye!"]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["I'm sorry, I didn't understand that. Could you please rephrase or ask something related to our college? or call for +91-824-2278660 "]
+    }
+  ]
+}
