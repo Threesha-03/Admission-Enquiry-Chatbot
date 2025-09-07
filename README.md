@@ -71,10 +71,6 @@ Edit **`intents.json`** to add or update questions & responses for your chatbot.
 ---
 
 ## 📸 Output
-![Image Description](https://github.com/user-attachments/assets/aa83bfa7-5bcb-4b99-aa58-5931f8ab582f)
 
-
-```
-![Chatbot UI](./static/images/output.png)
 
 ```
